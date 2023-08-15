@@ -1,6 +1,6 @@
 {
   "errors" : [ {
     "status" : 404,
-    "message" : "Could not find any build artifacts for build 'Maven_Jfrog_Demo_FreeStyle' number '16'."
+    "message" : "Could not find any build artifacts for build 'Maven_Jfrog_Demo_FreeStyle' number '17'."
   } ]
 }
