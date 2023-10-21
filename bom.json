@@ -1,0 +1,67 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:33de8396-1f3e-41dc-8bbe-73b71c06c313",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-10-20T17:09:50.083Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "8.6.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "javagradle",
+      "version": "latest",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/javagradle@latest?type=jar",
+      "type": "application",
+      "bom-ref": "pkg:maven/javagradle@latest?type=jar",
+      "properties": [
+        {
+          "name": "buildFile",
+          "value": "/home/toni/javagradle/build.gradle"
+        },
+        {
+          "name": "projectDir",
+          "value": "/home/toni/javagradle"
+        },
+        {
+          "name": "rootDir",
+          "value": "/home/toni/javagradle"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/javagradle@latest?type=jar",
+      "dependsOn": []
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/home/toni/javagradle/app/build.gradle",
+      "comment": "Package file"
+    }
+  ]
+}
