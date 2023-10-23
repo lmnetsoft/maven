@@ -1,10 +1,10 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
-    // id("java-gradle-plugin")
-    // id("com.gradle.plugin-publish")  version "1.2.1"
-    id("org.cyclonedx.bom") version "1.7.4"
-    // id("groovy")
+    id("java-gradle-plugin")
+    id("com.gradle.plugin-publish")  version "1.2.1"
+    id 'org.cyclonedx.bom' version '1.7.4'
+    id("groovy")
 
 }
 
@@ -18,8 +18,8 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:32.1.1-jre'
-    // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
-    implementation group: 'com.mysql', name: 'mysql-connector-j', version: '8.1.0'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:9.0.2'
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
