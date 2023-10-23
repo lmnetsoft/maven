@@ -1,0 +1,12 @@
+/target/
+/.idea/
+/*.iml
+*~
+/build/
+/.gradle/
+
+src/test/build/
+src/test/.gradle/
+**/*/.gradle/
+**/*/build/
+**/*/.DS_Store
