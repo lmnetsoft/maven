@@ -19,7 +19,7 @@ dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:32.1.1-jre'
     //This is implemented to verify sbom creation and scanning
-    // implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:9.0.2'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:9.0.2'
 
 }
 
